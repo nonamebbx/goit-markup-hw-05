@@ -367,7 +367,7 @@ body {
   color: #404bbf;
 }
 .customer-icon {
-  fill: #8E8F99;
+  fill:currentColor;
 
 }
 
