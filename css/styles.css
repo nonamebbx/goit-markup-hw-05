@@ -131,6 +131,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-style: normal;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -374,14 +375,13 @@ body {
 /* Footer container  */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .container-footer {
   display: flex;
 }
 .foot-container {
-  display: flex;
-  flex-direction: column;
-  margin: 100px 120px 100px 156px;
+  margin-right: 120px;
   max-width: 264px;
 }
 .text-footer {
@@ -394,9 +394,7 @@ body {
 }
 
 .media-container {
-  display: flex;
-  margin-top: 100px;
-  flex-direction: column;
+
 }
 .media-title {
   color: #ffffff;
@@ -752,8 +750,7 @@ border-radius: 4px;
 /* subscribe panel */
 .subscribe-container {
   padding: 0 ;
-  margin-left: 80px;
-  margin-top: 100px;
+  margin-left: auto;
   }
   
   .subscribe-form {
@@ -798,7 +795,6 @@ border-radius: 4px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-left: 24px;
   padding: 8px 24px;
   border: none;
   background: #4D5AE5;
